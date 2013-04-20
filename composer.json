@@ -1,0 +1,31 @@
+{
+    "name": "skar/mandango",
+    "description": "Mandango Module for Zend Framework 2",
+    "type": "library",
+    "keywords": [
+		"mandango",
+		"module",
+		"zf2"
+	],
+    "homepage": "https://github.com/skar/Mandango",
+	"license": "GPLv3",
+    "authors": [
+        {
+            "name": "Skar",
+            "email": "sskarr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+		"mandango/mandango": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Skar/Mandango": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
