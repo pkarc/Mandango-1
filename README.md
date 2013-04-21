@@ -10,19 +10,8 @@ Mandango Module for Zend Framework 2
 Installation of Mandango Module uses composer.
 For composer documentation, please refer to [getcomposer.org](http://getcomposer.org/).
 
-Add the repository and a dependency to your `composer.json`:
-```js
-{
-    "repositories": [
-        {"type": "git", "url": "https://github.com/skar/Mandango.git"}
-    ],
-    "require": {
-        ...
-        "skar/mandango": "dev-master"
-        ...
-    }
-}
-
+```sh
+php composer.phar require skar/mandango:dev-master
 ```
 
 Then add `Skar\Mandango` to your `config/application.config.php`
