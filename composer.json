@@ -3,12 +3,12 @@
     "description": "Mandango Module for Zend Framework 2",
     "type": "library",
     "keywords": [
-		"mandango",
-		"module",
-		"zf2"
-	],
+        "mandango",
+        "module",
+        "zf2"
+    ],
     "homepage": "https://github.com/skar/Mandango",
-	"license": "GPLv3",
+    "license": "BSD",
     "authors": [
         {
             "name": "Skar",
@@ -18,7 +18,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
-		"mandango/mandango": "dev-master"
+        "mandango/mandango": "dev-master"
     },
     "autoload": {
         "psr-0": {

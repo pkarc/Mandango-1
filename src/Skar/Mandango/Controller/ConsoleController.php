@@ -8,7 +8,7 @@ use Mandango\Extension\Core as MandangoCore;
 /**
  * Class ConsoleController
  *
- * @license GPLv3
+ * @license BSD
  * @link    https://github.com/skar/Mandango
  * @package Skar\Mandango
  * @author  Skar <sskarr@gmail.com>

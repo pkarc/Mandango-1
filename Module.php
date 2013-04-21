@@ -9,7 +9,7 @@ use Mandango\Connection;
 /**
  * Class Module
  *
- * @license GPLv3
+ * @license BSD
  * @link    https://github.com/skar/Mandango
  * @package Skar\Mandango
  * @author  Skar <sskarr@gmail.com>
