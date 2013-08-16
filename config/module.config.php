@@ -1,26 +1,26 @@
 <?php
 namespace Skar\Mandango;
 
-return [
-    'controllers' => [
-        'invokables' => [
+return array(
+    'controllers' => array(
+        'invokables' => array(
             'Skar\Mandango\Console' => 'Skar\Mandango\Controller\ConsoleController',
-        ],
-    ],
+        ),
+    ),
 
-    'console' => [
-        'router' => [
-            'routes' => [
-                'skar_mandango_mondator_process' => [
-                    'options' => [
+    'console' => array(
+        'router' => array(
+            'routes' => array(
+                'skar_mandango_mondator_process' => array(
+                    'options' => array(
                         'route'    => 'mandango mondator process',
-                        'defaults' => [
+                        'defaults' => array(
                             'controller' => 'Skar\Mandango\Console',
                             'action'     => 'mondator-process',
-                        ],
-                    ],
-                ],
-            ],
-        ],
-    ],
-];
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    ),
+);

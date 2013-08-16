@@ -2,6 +2,7 @@
 namespace Skar\Mandango;
 
 use Zend\ModuleManager\Feature;
+use ZfcBase\Module\AbstractModule;
 use Mandango\Cache\FilesystemCache;
 use Mandango\Mandango;
 use Mandango\Connection;
@@ -9,22 +10,18 @@ use Mandango\Connection;
 /**
  * Class Module
  *
- * @license BSD
+ * @license BSD-3-Clause
  * @link    https://github.com/skar/Mandango
  * @package Skar\Mandango
  * @author  Skar <sskarr@gmail.com>
  */
-class Module implements Feature\AutoloaderProviderInterface,
-                        Feature\ConfigProviderInterface,
-                        Feature\ServiceProviderInterface {
+class Module extends AbstractModule implements Feature\ServiceProviderInterface {
+    public function getDir() {
+        return __DIR__;
+    }
 
-    /**
-     * Returns configuration to merge with application configuration
-     *
-     * @return array|\Traversable
-     */
-    public function getConfig() {
-        return include __DIR__ . '/config/module.config.php';
+    public function getNamespace() {
+        return __NAMESPACE__;
     }
 
     /**

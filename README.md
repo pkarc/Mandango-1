@@ -1,4 +1,4 @@
-Mandango Module for Zend Framework 2
+Mandango module for Zend Framework 2
 ========
 
 [Mandango](http://mandango.org/)
@@ -21,8 +21,8 @@ and autoload the dependencies specified in the `composer.json`.
 
 ## Usage
 
-Copy config from `vendor/skar/mandango/config/mandango.local.php.dist`
-to `config/autoload/mandango.local.php`.
+Copy config from `vendor/skar/mandango/config/skar-mandango.local.php.dist`
+to `config/autoload/skar-mandango.local.php`.
 
 Add to your config `mandango_config_classes` for mapping:
 ```php
